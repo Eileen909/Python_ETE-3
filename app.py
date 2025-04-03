@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import nltk
 from nltk.tokenize import word_tokenize
+pip install wordcloud==1.8.0
 from nltk.probability import FreqDist
 from wordcloud import WordCloud
 from PIL import Image, ImageFilter
-import os
 import nltk
 nltk.download('punkt')
 
