@@ -9,6 +9,8 @@ from nltk.probability import FreqDist
 from wordcloud import WordCloud
 from PIL import Image, ImageFilter
 import os
+import nltk
+nltk.download('punkt')
 
 # Set the page configuration (Title and Favicon)
 st.set_page_config(page_title="INBLOOM '25 Participation Dashboard 🎭", page_icon="🎭", layout="wide")
